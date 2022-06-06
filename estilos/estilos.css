@@ -62,15 +62,7 @@ section#pagos{
     background-color: rgb(243, 238, 238)
 }
 
-nav ul {
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-}
 
-nav ul li {
-list-style: none;
-}
 
 a{
     text-decoration: none;
@@ -324,22 +316,8 @@ form{
         z-index: 1;
     }
     
-    nav ul {
-        display: flex;
-        gap: 50px;
-        justify-content: center;
-    }
-    
-    nav ul li {
-    list-style: none;
-    }
-    
-    a{
-        text-decoration: none;
-        font-size: 1em;
-        color:rgb(220, 143, 180);                              
-    }
-    
+
+
     
     #foto{
         display: flex;
