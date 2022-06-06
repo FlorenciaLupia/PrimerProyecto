@@ -58,6 +58,10 @@ section#pagos{
     z-index: 1;
 }
 
+.gris{
+    background-color: rgb(243, 238, 238)
+}
+
 nav ul {
     display: flex;
     gap: 50px;
