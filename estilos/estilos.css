@@ -208,12 +208,7 @@ footer{
 
 }
 
-.articulo{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-}
+
 
 
 /*contacto*/
@@ -464,12 +459,7 @@ form{
 
 }
 
-.articulo{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    text-align: center;
-}
+
 
 
 /*contacto*/
