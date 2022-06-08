@@ -124,6 +124,7 @@ p{
 
 .pieDePagina{
     color: dimgray;
+    
 }
 
 footer{
@@ -416,6 +417,7 @@ form{
         gap: 3%;
         padding-left: 20%;
         padding-right: 20%;
+        padding-bottom: 4em;
         justify-content: space-around;
     }
     
