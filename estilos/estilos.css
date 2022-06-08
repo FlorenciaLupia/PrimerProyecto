@@ -157,17 +157,19 @@ footer{
     grid-template-columns: 1fr;  
     grid-template-rows: 2fr 2fr 2fr 2fr; 
     row-gap: 15px;
-    height: 600px; 
+    height: auto; 
     width: auto; 
 }
 
 .fotosCunas{
    width: auto;
+   height: auto;
    display: flex;
    flex-direction: column;
    align-items: center;
    row-gap: 2em;
 }
+
 
 /*blanqueria*/
 
@@ -189,7 +191,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: 2em;
+    gap: 2em;
 }
 
 /*promociones*/
