@@ -71,10 +71,11 @@ a{
 
 
 #foto{
-    background-color: rgb(227, 233, 233);
-    text-align: center;
-    max-width: 100%;
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
 }
 
 
@@ -216,8 +217,6 @@ footer{
 }
 
 
-
-
 /*contacto*/
 
 #grillaContacto{
@@ -322,9 +321,7 @@ form{
         flex-direction: column;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 2em;
-       
-       
+        margin-top: 2em; 
     }
     
     #nosotros{
@@ -467,8 +464,6 @@ form{
     width: auto; 
 
 }
-
-
 
 
 /*contacto*/
