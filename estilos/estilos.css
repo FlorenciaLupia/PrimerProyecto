@@ -1,8 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@100;200&family=Mukta:wght@200&family=Oleo+Script+Swash+Caps:wght@700&family=Pacifico&family=Poppins:wght@100&family=Rubik&display=swap');
 
-@media(max-width: 760px) {
-
 *{
     padding: 0;
     margin: 0;
@@ -17,6 +15,8 @@ html{
     height: 100vh;
     width: 100%;
 }
+
+@media(max-width: 760px) {
 
 #grilla{
     display: grid;
@@ -63,13 +63,6 @@ section#pagos{
 }
 
 
-a{
-    text-decoration: none;
-    font-size: 1em;
-    color:rgb(220, 143, 180);                              
-}
-
-
 #foto{
     display: flex;
     flex-direction: column;
@@ -78,14 +71,9 @@ a{
     margin-top: 2em;
 }
 
-
-
-.titulo{ 
-    display: flex;
-    align-self: flex-start;
-    color:rgb(254, 180, 217);
+.navbar-brand{
     font-family: 'Rubik';
-    font-size: 4em;
+    font-size: 2em;
 }
 
 #nosotros{
@@ -94,13 +82,13 @@ a{
 
 h2{ 
     color:rgb(254, 180, 217);
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'Inter', sans-serif;
     text-align: center;
 }
 
 h3{ color:rgb(254, 180, 217);
-    font-size: 2em;
+    font-size: 1em;
     font-style: oblique;
     font-family: 'Inter', sans-serif;
     text-align: center;
@@ -110,7 +98,7 @@ h3{ color:rgb(254, 180, 217);
 
 p{
     font-family: 'Mukta', sans-serif; 
-    font-size: 2em;
+    font-size: 1em;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -123,9 +111,10 @@ p{
     flex-direction: column;
     font-size: medium;
     padding-bottom: 5%;
-}
+} 
 
 /*footer*/
+
 
 .pieDePagina{
     color: dimgray;
@@ -158,7 +147,7 @@ footer{
     display: grid;
     grid-template-areas: "header"
                          "descripcion"
-                         "fotosCuna"
+                         "fotosCunas"
                          "footer";
     grid-template-columns: 1fr;  
     grid-template-rows: 2fr 2fr 2fr 2fr; 
@@ -166,6 +155,7 @@ footer{
     height: auto; 
     width: auto; 
 }
+
 
 .fotosCunas{
     width: auto;
@@ -234,7 +224,7 @@ footer{
 form{
     display: flex;
     flex-direction: column;
-    font-size: 2em;
+    font-size: 1em;
     align-items: center;
 }
 
@@ -254,28 +244,10 @@ form{
     height: 100%;
 }
 
-
-
 }
 
-
 @media(min-width: 761px) {
-
-    *{
-        padding: 0;
-        margin: 0;
-    }
-    
-    html{
-        font-size: 62.5%;
-        font-size: 1em;
-    }
-    
-    #grilla{
-        height: 100vh;
-        width: 100%;
-    }
-    
+ 
     #grilla{
         display: grid;
         grid-template-areas: "header"
@@ -290,22 +262,7 @@ form{
         width: auto;           
     }
     
-    header#header{
-        grid-area: header;
-    }
-    
-    figure#foto{
-        grid-area: foto;
-    }
-    
-    section#nosotros{
-        grid-area: nosotros;
-    }
-    
-    section#pagos{
-        grid-area: pagos;
-    }
-    
+
     #header{
         background-color: rgb(243, 238, 238);
         font-family: 'Inter', sans-serif;
@@ -328,14 +285,10 @@ form{
         background-color: rgb(227, 233, 233);
     }
     
-    h1{ 
-        display: flex;
-        align-self: flex-start;
-        color:rgb(254, 180, 217);
+    .navbar-brand{
         font-family: 'Rubik';
-        font-size: 3em;
+        font-size: 2em;
     }
-    
     
     h2{
         color:rgb(254, 180, 217);
@@ -504,8 +457,6 @@ form{
 }
 
 
-}
-
-
+} 
 
 
