@@ -30,79 +30,147 @@ section#pagos {
   grid-area: pagos;
 }
 
+#header {
+  background-color: #f3eeee;
+  font-family: 'Inter', sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+  width: 100%;
+  z-index: 1;
+}
+
+.gris {
+  background-color: #f3eeee;
+}
+
+#foto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.navbar-brand {
+  font-family: 'Rubik';
+  font-size: 2em;
+}
+
+#nosotros {
+  background-color: #e3e9e9;
+}
+
+h3 {
+  color: #feb4d9;
+  font-size: 1em;
+  font-style: oblique;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+p {
+  font-family: 'Mukta', sans-serif;
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+/*footer*/
+.pieDePagina {
+  color: dimgray;
+}
+
+footer {
+  background-color: #f3eeee;
+  grid-area: footer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 110px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+.social i {
+  font-size: 20px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.direccion {
+  font-family: 'Mukta', sans-serif;
+  font-size: 1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.bebe {
+  background-color: #e3e9e9;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
 @media (max-width: 760px) {
   #grilla {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header"
- "foto"
- "nosotros"
- "pagos"
- "footer";
-    grid-columns: 1fr;
+        grid-template-areas: "header" "foto" "nosotros" "pagos" "footer";
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-rows: 2fr 90% 1fr 1fr 1fr;
+    -ms-grid-rows: 2fr 90% 1fr 1fr 1fr;
         grid-template-rows: 2fr 90% 1fr 1fr 1fr;
     row-gap: 10px;
     height: 600px;
     width: auto;
   }
-  #header {
-    background-color: #f3eeee;
-    font-family: 'Inter', sans-serif;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    padding: 10px;
-    width: 100%;
-    z-index: 1;
-  }
-  .gris {
-    background-color: #f3eeee;
-  }
-  #foto {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        flex-direction: column;
-            flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-  }
-  .navbar-brand {
-    font-family: 'Rubik';
-    font-size: 2em;
-  }
-  #nosotros {
-    background-color: #e3e9e9;
-  }
   h2 {
     color: #feb4d9;
     font-size: 1em;
     font-family: 'Inter', sans-serif;
-    text-align: center;
-  }
-  h3 {
-    color: #feb4d9;
-    font-size: 1em;
-    font-style: oblique;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    padding-bottom: 3%;
-  }
-  p {
-    font-family: 'Mukta', sans-serif;
-    font-size: 1em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        flex-direction: column;
-        flex-direction: column;
     text-align: center;
   }
   .parrafoPagos {
@@ -113,51 +181,19 @@ section#pagos {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        flex-direction: column;
-        flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     font-size: medium;
     padding-bottom: 5%;
-  }
-  /*footer*/
-  .pieDePagina {
-    color: dimgray;
-  }
-  footer {
-    background-color: #f3eeee;
-    grid-row: 4;
-    grid-column: 1;
-    grid-area: footer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-pack: distribute;
-        justify-content: space-around;
-    height: 110px;
-    width: 100%;
-    -webkit-box-align: center;
-        flex-align: center;
-            align-items: center;
-  }
-  .social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 20px;
-  }
-  .social i {
-    font-size: 20px;
   }
   /*cunas*/
   #grillaCunas {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header"
- "descripcion"
- "fotosCunas"
- "footer";
-    grid-columns: 1fr;
+        grid-template-areas: "header" "descripcion" "fotosCunas" "footer";
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-rows: 2fr 1fr 2fr 1fr;
+    -ms-grid-rows: 2fr 1fr 2fr 1fr;
         grid-template-rows: 2fr 1fr 2fr 1fr;
     row-gap: 15px;
     height: 600px;
@@ -170,24 +206,21 @@ section#pagos {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        flex-direction: column;
-        flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-        flex-align: center;
-        align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     row-gap: 2em;
   }
   /*blanqueria*/
   #grillaBlanqueria {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header"
- "descripcion"
- "blanqueria"
- "footer";
-    grid-columns: 1fr;
+        grid-template-areas: "header" "descripcion" "blanqueria" "footer";
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-rows: 2fr 1fr 2fr 1fr;
+    -ms-grid-rows: 2fr 1fr 2fr 1fr;
         grid-template-rows: 2fr 1fr 2fr 1fr;
     row-gap: 15px;
     height: 600px;
@@ -200,10 +233,10 @@ section#pagos {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        flex-direction: column;
+        -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-align: center;
-        flex-align: center;
+        -ms-flex-align: center;
             align-items: center;
     gap: 2em;
   }
@@ -211,13 +244,10 @@ section#pagos {
   #grillaPromo {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header"
- "descripcion"
- "articulo"
- "footer";
-    grid-columns: 1fr;
+        grid-template-areas: "header" "descripcion" "articulo" "footer";
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-rows: 2fr 1fr 2fr 1fr;
+    -ms-grid-rows: 2fr 1fr 2fr 1fr;
         grid-template-rows: 2fr 1fr 2fr 1fr;
     row-gap: 15px;
     height: 600px;
@@ -227,47 +257,13 @@ section#pagos {
   #grillaContacto {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header"
- "bebe"
- "bebe"
- "footer";
-    grid-columns: 1fr;
+        grid-template-areas: "header" "bebe" "bebe" "footer";
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-rows: 2fr 1fr 2fr 1fr;
+    -ms-grid-rows: 2fr 1fr 2fr 1fr;
         grid-template-rows: 2fr 1fr 2fr 1fr;
     height: 600px;
     width: auto;
-  }
-  form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        flex-direction: column;
-        flex-direction: column;
-    font-size: 1em;
-    -webkit-box-align: center;
-        flex-align: center;
-        align-items: center;
-  }
-  .direccion {
-    font-family: 'Mukta', sans-serif;
-    font-size: 1em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        flex-direction: column;
-        flex-direction: column;
-    text-align: center;
-  }
-  .bebe {
-    background-color: #e3e9e9;
-    text-align: center;
-    width: 100%;
-    height: 100%;
   }
 }
 
@@ -275,72 +271,19 @@ section#pagos {
   #grilla {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header"
- "foto"
- "nosotros"
- "pagos"
- "footer";
-    grid-columns: 1fr;
+        grid-template-areas: "header" "foto" "nosotros" "pagos" "footer";
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-rows: 2fr 90% 1fr 1fr 1fr;
+    -ms-grid-rows: 2fr 90% 1fr 1fr 1fr;
         grid-template-rows: 2fr 90% 1fr 1fr 1fr;
     row-gap: 10px;
     height: 600px;
     width: auto;
   }
-  #header {
-    background-color: #f3eeee;
-    font-family: 'Inter', sans-serif;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    padding: 10px;
-    width: 100%;
-    z-index: 1;
-  }
-  #foto {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        flex-direction: column;
-            flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-  }
-  #nosotros {
-    background-color: #e3e9e9;
-  }
-  .navbar-brand {
-    font-family: 'Rubik';
-    font-size: 2em;
-  }
   h2 {
     color: #feb4d9;
     font-size: 1,5em;
     font-family: 'Inter', sans-serif;
-    text-align: center;
-  }
-  h3 {
-    color: #feb4d9;
-    font-size: 1em;
-    font-style: oblique;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    padding-bottom: 3%;
-  }
-  p {
-    font-family: 'Mukta', sans-serif;
-    font-size: 1em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        flex-direction: column;
-            flex-direction: column;
     text-align: center;
   }
   .parrafoPagos {
@@ -351,51 +294,19 @@ section#pagos {
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        flex-direction: row;
+        -ms-flex-direction: row;
             flex-direction: row;
     font-size: medium;
     padding-bottom: 5%;
-  }
-  /*footer*/
-  .pieDePagina {
-    color: dimgray;
-  }
-  footer {
-    background-color: #f3eeee;
-    grid-row: 4;
-    grid-column: 1;
-    grid-area: footer;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-pack: distribute;
-        justify-content: space-around;
-    height: 110px;
-    width: 100%;
-    -webkit-box-align: center;
-        flex-align: center;
-            align-items: center;
-  }
-  .social {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    gap: 20px;
-  }
-  .social i {
-    font-size: 20px;
   }
   /*cunas*/
   #grillaCunas {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header"
- "descripcion"
- "fotosCuna"
- "footer";
-    grid-columns: 1fr;
+        grid-template-areas: "header" "descripcion" "fotosCuna" "footer";
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-rows: 2fr 1fr 2fr 1fr;
+    -ms-grid-rows: 2fr 1fr 2fr 1fr;
         grid-template-rows: 2fr 1fr 2fr 1fr;
     row-gap: 15px;
     height: 600px;
@@ -405,9 +316,9 @@ section#pagos {
     height: 100%;
     display: -ms-grid;
     display: grid;
-    grid-columns: 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    grid-rows: auto;
+    -ms-grid-rows: auto;
         grid-template-rows: auto;
     gap: 3%;
     padding-left: 20%;
@@ -420,13 +331,10 @@ section#pagos {
   #grillaBlanqueria {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header"
- "descripcion"
- "blanqueria"
- "footer";
-    grid-columns: 1fr;
+        grid-template-areas: "header" "descripcion" "blanqueria" "footer";
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-rows: 2fr 1fr 2fr 1fr;
+    -ms-grid-rows: 2fr 1fr 2fr 1fr;
         grid-template-rows: 2fr 1fr 2fr 1fr;
     row-gap: 15px;
     height: 600px;
@@ -435,11 +343,11 @@ section#pagos {
   .blanqueria {
     display: -ms-grid;
     display: grid;
-    grid-columns: 1fr 1fr 1fr;
+    -ms-grid-columns: 1fr 1fr 1fr;
         grid-template-columns: 1fr 1fr 1fr;
-    grid-rows: auto;
+    -ms-grid-rows: auto;
         grid-template-rows: auto;
-    flex-pack: distribute;
+    -ms-flex-pack: distribute;
         justify-content: space-around;
     padding-left: 20%;
     padding-right: 20%;
@@ -451,13 +359,10 @@ section#pagos {
   #grillaPromo {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header"
- "descripcion"
- "articulo"
- "footer";
-    grid-columns: 1fr;
+        grid-template-areas: "header" "descripcion" "articulo" "footer";
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-rows: 2fr 1fr 2fr 1fr;
+    -ms-grid-rows: 2fr 1fr 2fr 1fr;
         grid-template-rows: 2fr 1fr 2fr 1fr;
     row-gap: 15px;
     height: 600px;
@@ -467,47 +372,13 @@ section#pagos {
   #grillaContacto {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header"
- "bebe"
- "direccion"
- "footer";
-    grid-columns: 1fr;
+        grid-template-areas: "header" "bebe" "direccion" "footer";
+    -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    grid-rows: 2fr 1fr 2fr 1fr;
+    -ms-grid-rows: 2fr 1fr 2fr 1fr;
         grid-template-rows: 2fr 1fr 2fr 1fr;
     height: 600px;
     width: auto;
-  }
-  form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        flex-direction: column;
-            flex-direction: column;
-    font-size: 1em;
-    -webkit-box-align: center;
-        flex-align: center;
-            align-items: center;
-  }
-  .direccion {
-    font-family: 'Mukta', sans-serif;
-    font-size: 1em;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        flex-direction: column;
-            flex-direction: column;
-    text-align: center;
-  }
-  .bebe {
-    background-color: #e3e9e9;
-    text-align: center;
-    width: 100%;
-    height: 100%;
   }
 }
 /*# sourceMappingURL=style.css.map */

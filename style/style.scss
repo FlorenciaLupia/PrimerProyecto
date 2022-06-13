@@ -32,24 +32,6 @@ section#pagos{
     grid-area: pagos;
 }
 
-@media(max-width: 760px) {
-
-
-#grilla{
-    display: grid;
-    grid-template-areas: "header"
-                         "foto"
-                         "nosotros"
-                         "pagos"
-                         "footer";
-    grid-template-columns: 1fr;  
-    grid-template-rows: 2fr 90% 1fr 1fr 1fr; 
-    row-gap: 10px;
-    height: 600px; 
-    width: auto;           
-}
-
-
 #header{
     background-color: rgb(243, 238, 238);
     font-family: 'Inter', sans-serif;
@@ -83,13 +65,6 @@ section#pagos{
     background-color: rgb(227, 233, 233);
 }
 
-h2{ 
-    color:rgb(254, 180, 217);
-    font-size: 1em;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-}
-
 h3{ color:rgb(254, 180, 217);
     font-size: 1em;
     font-style: oblique;
@@ -106,15 +81,6 @@ p{
     flex-direction: column;
     text-align: center;
 }
-
-.parrafoPagos{
-    text-align: justify;
-    font-family: 'Mukta', sans-serif;
-    display: flex;
-    flex-direction: column;
-    font-size: medium;
-    padding-bottom: 5%;
-} 
 
 /*footer*/
 
@@ -143,6 +109,68 @@ footer{
 .social i{
     font-size: 20px;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    align-items: center;
+}
+
+.direccion{ 
+    font-family: 'Mukta', sans-serif; 
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.bebe{
+    background-color: rgb(227, 233, 233);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media(max-width: 760px) {
+
+
+#grilla{
+    display: grid;
+    grid-template-areas: "header"
+                         "foto"
+                         "nosotros"
+                         "pagos"
+                         "footer";
+    grid-template-columns: 1fr;  
+    grid-template-rows: 2fr 90% 1fr 1fr 1fr; 
+    row-gap: 10px;
+    height: 600px; 
+    width: auto;           
+}
+
+
+h2{ 
+    color:rgb(254, 180, 217);
+    font-size: 1em;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+
+.parrafoPagos{
+    text-align: justify;
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    padding-bottom: 5%;
+} 
+
+
 
 /*cunas*/
 
@@ -223,28 +251,7 @@ footer{
     width: auto; 
 }
 
-form{
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
-    align-items: center;
-}
 
-.direccion{ 
-    font-family: 'Mukta', sans-serif; 
-    font-size: 1em;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
-
-.bebe{
-    background-color: rgb(227, 233, 233);
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
 
 }
 
@@ -265,33 +272,6 @@ form{
     }
     
 
-    #header{
-        background-color: rgb(243, 238, 238);
-        font-family: 'Inter', sans-serif;
-        position: sticky;
-        top: 0px;
-        padding: 10px;
-        width: 100%;
-        z-index: 1;
-    }
-    
-    #foto{
-        display: flex;
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 2em; 
-    }
-    
-    #nosotros{
-        background-color: rgb(227, 233, 233);
-    }
-    
-    .navbar-brand{
-        font-family: 'Rubik';
-        font-size: 2em;
-    }
-    
     h2{
         color:rgb(254, 180, 217);
         font-size: 1,5em;
@@ -299,22 +279,6 @@ form{
         text-align: center;
     }
     
-    h3{ color:rgb(254, 180, 217);
-        font-size: 1em;
-        font-style: oblique;
-        font-family: 'Inter', sans-serif;
-        text-align: center;
-        padding-bottom: 3%;
-    }
-    
-    
-    p{
-        font-family: 'Mukta', sans-serif; 
-        font-size: 1em;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
     
     .parrafoPagos{
         text-align: justify;
@@ -323,32 +287,6 @@ form{
         flex-direction: row;
         font-size: medium;
         padding-bottom: 5%;
-    }
-    
-    
-    /*footer*/
-    
-    .pieDePagina{
-        color: dimgray;
-    }
-    
-    footer{
-        background-color: rgb(243, 238, 238);
-        grid-area: footer;
-        display: flex;
-        justify-content: space-around;
-        height: 110px;
-        width: 100%;  
-        align-items: center;
-    }
-    
-    .social{
-          display: flex;
-          gap: 20px;
-    }
-    
-    .social i{
-        font-size: 20px;
     }
     
     
@@ -438,29 +376,5 @@ form{
     height: 600px; 
     width: auto; 
 }
-
-form{
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
-    align-items: center;
-}
-
-.direccion{ 
-    font-family: 'Mukta', sans-serif; 
-    font-size: 1em;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
-
-.bebe{
-    background-color: rgb(227, 233, 233);
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
 
 } 
