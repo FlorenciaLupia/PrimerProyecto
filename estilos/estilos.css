@@ -16,22 +16,6 @@ html{
     width: 100%;
 }
 
-@media(max-width: 760px) {
-
-#grilla{
-    display: grid;
-    grid-template-areas: "header"
-                         "foto"
-                         "nosotros"
-                         "pagos"
-                         "footer";
-    grid-template-columns: 1fr;  
-    grid-template-rows: 2fr 90% 1fr 1fr 1fr; 
-    row-gap: 10px;
-    height: 600px; 
-    width: auto;           
-}
-
 header#header{
     grid-area: header;
 }
@@ -48,6 +32,25 @@ section#pagos{
     grid-area: pagos;
 }
 
+@media(max-width: 760px) {
+
+
+#grilla{
+    display: grid;
+    grid-template-areas: "header"
+                         "foto"
+                         "nosotros"
+                         "pagos"
+                         "footer";
+    grid-template-columns: 1fr;  
+    grid-template-rows: 2fr 90% 1fr 1fr 1fr; 
+    row-gap: 10px;
+    height: 600px; 
+    width: auto;           
+}
+
+
+
 #header{
     background-color: rgb(243, 238, 238);
     font-family: 'Inter', sans-serif;
@@ -59,7 +62,7 @@ section#pagos{
 }
 
 .gris{
-    background-color: rgb(243, 238, 238)
+    background-color: rgb(243, 238, 238);
 }
 
 
