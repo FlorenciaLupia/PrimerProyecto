@@ -1,10 +1,7 @@
 
 @import "generales";
 
-#grilla{
-    height: 100vh;
-    width: 100%;
-}
+
 
 header#header{
     grid-area: header;
@@ -223,7 +220,6 @@ h2{
     row-gap: 15px;
     height: 600px; 
     width: auto; 
-
 }
 
 
