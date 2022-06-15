@@ -120,7 +120,9 @@ form{
     height: 100%;
 }
 
-
+.rounded:hover{
+    transform: scale(2,1);
+}
 
 @media(max-width: 760px) {
 
