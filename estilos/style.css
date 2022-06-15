@@ -9,6 +9,32 @@ html {
   font-size: 1em;
 }
 
+#header {
+  background-color: #f3eeee;
+  font-family: 'Inter', sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+  width: 100%;
+  z-index: 1;
+}
+
+.gris {
+  background-color: #f3eeee;
+}
+
+.navbar-brand {
+  font-family: 'Rubik';
+  font-size: 2em;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .nav-bar-nav.show > .nav-link {
+  color: #feb4d9;
+  font-family: 'Rubik';
+  font-size: 1,5em;
+}
+
 header#header {
   grid-area: header;
 }
