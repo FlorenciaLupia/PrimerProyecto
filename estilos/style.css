@@ -59,7 +59,7 @@ section#pagos {
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .nav-bar-nav.show > .nav-link {
-  color: #feb0bd;
+  color: #feb4d9;
   font-family: 'Rubik';
   font-size: 1,5em;
 }
@@ -75,6 +75,7 @@ h3 {
   font-family: 'Inter', sans-serif;
   text-align: center;
   padding-bottom: 3%;
+  font-weight: bolder;
 }
 
 p {
@@ -93,6 +94,7 @@ p {
 /*footer*/
 .pieDePagina {
   color: dimgray;
+  font-weight: bolder;
 }
 
 footer {
@@ -119,6 +121,7 @@ footer {
 
 .social i {
   font-size: 20px;
+  color: #feb4d9;
 }
 
 form {
@@ -178,6 +181,7 @@ form {
     font-size: 1em;
     font-family: 'Inter', sans-serif;
     text-align: center;
+    font-weight: bolder;
   }
   .parrafoPagos {
     text-align: justify;
@@ -291,6 +295,7 @@ form {
     font-size: 1,5em;
     font-family: 'Inter', sans-serif;
     text-align: center;
+    font-weight: bolder;
   }
   .parrafoPagos {
     text-align: justify;

@@ -50,7 +50,7 @@ section#pagos{
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .nav-bar-nav.show> .nav-link {
-    color: rgb(254, 176, 189);
+    color:rgb(254, 180, 217); ;
     font-family: 'Rubik';
     font-size: 1,5em;
 }
@@ -65,6 +65,7 @@ h3{ color:rgb(254, 180, 217);
     font-family: 'Inter', sans-serif;
     text-align: center;
     padding-bottom: 3%;
+    font-weight: bolder;
 }
 
 
@@ -81,7 +82,7 @@ p{
 
 .pieDePagina{
     color: dimgray;
-    
+    font-weight: bolder;
 }
 
 footer{
@@ -102,6 +103,7 @@ footer{
 
 .social i{
     font-size: 20px;
+    color:rgb(254, 180, 217)
 }
 
 form{
@@ -154,6 +156,7 @@ h2{
     font-size: 1em;
     font-family: 'Inter', sans-serif;
     text-align: center;
+    font-weight: bolder;
 }
 
 
@@ -272,6 +275,7 @@ h2{
         font-size: 1,5em;
         font-family: 'Inter', sans-serif;
         text-align: center;
+        font-weight: bolder;
     }
     
     
