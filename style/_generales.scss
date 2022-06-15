@@ -10,3 +10,65 @@ html{
     font-size: 62.5%;
     font-size: 1em;
 }
+/* foto de mi index */
+
+#foto{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+#nosotros{
+    background-color: rgb(227, 233, 233);
+}
+
+h3{ color:rgb(254, 180, 217);
+    font-size: 1em;
+    font-style: oblique;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    padding-bottom: 3%;
+    font-weight: bolder;
+}
+
+
+p{
+    font-family: 'Mukta', sans-serif; 
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* seccion contacto */
+
+form{
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    align-items: center;
+}
+
+.direccion{ 
+    font-family: 'Mukta', sans-serif; 
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.bebe{
+    background-color: rgb(227, 233, 233);
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+/* seccion blanqueria*/
+
+.rounded:hover{
+    transform: scale(2,1);
+}
