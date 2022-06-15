@@ -1,8 +1,7 @@
 
 @import "generales";
 @import "nav";
-
-
+@import "footer";
 
 
 header#header{
@@ -21,119 +20,6 @@ section#pagos{
     grid-area: pagos;
 }
 
-#header{
-    background-color: rgb(243, 238, 238);
-    font-family: 'Inter', sans-serif;
-    position: sticky;
-    top: 0px;
-    padding: 10px;
-    width: 100%;
-    z-index: 1;
-}
-
-.gris{
-    background-color: rgb(243, 238, 238);
-}
-
-
-#foto{
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2em;
-}
-
-.navbar-brand {
-    font-family: 'Rubik';
-    font-size: 2em;
-    
-    
-}
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .nav-bar-nav.show> .nav-link {
-    color:rgb(254, 180, 217); ;
-    font-family: 'Rubik';
-    font-size: 1,5em;
-}
-
-#nosotros{
-    background-color: rgb(227, 233, 233);
-}
-
-h3{ color:rgb(254, 180, 217);
-    font-size: 1em;
-    font-style: oblique;
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    padding-bottom: 3%;
-    font-weight: bolder;
-}
-
-
-p{
-    font-family: 'Mukta', sans-serif; 
-    font-size: 1em;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-
-/*footer*/
-
-
-.pieDePagina{
-    color: dimgray;
-    font-weight: bolder;
-}
-
-footer{
-    background-color: rgb(243, 238, 238);
-    grid-area: footer;
-    display: flex;
-    justify-content: space-around;
-    height: 110px;
-    width: 100%;  
-    align-items: center;
-
-}
-
-.social{
-      display: flex;
-      gap: 20px;
-}
-
-.social i{
-    font-size: 20px;
-    color:rgb(254, 180, 217)
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    font-size: 1em;
-    align-items: center;
-}
-
-.direccion{ 
-    font-family: 'Mukta', sans-serif; 
-    font-size: 1em;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
-
-.bebe{
-    background-color: rgb(227, 233, 233);
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-
-.rounded:hover{
-    transform: scale(2,1);
-}
 
 @media(max-width: 760px) {
 
