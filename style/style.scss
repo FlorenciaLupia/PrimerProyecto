@@ -42,11 +42,18 @@ section#pagos{
     margin-top: 2em;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Rubik';
     font-size: 2em;
+    
+    
 }
 
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .nav-bar-nav.show> .nav-link {
+    color: rgb(254, 176, 189);
+    font-family: 'Rubik';
+    font-size: 1,5em;
+}
 
 #nosotros{
     background-color: rgb(227, 233, 233);
