@@ -1,0 +1,26 @@
+
+  footer{    
+    background-color: rgb(243, 238, 238);
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    height: 110px;
+    width: 100%;  
+    align-items: center;
+   
+    p{
+        color: dimgray;
+        font-weight: bolder;
+    }
+
+    .social{
+        display: flex;
+        gap: 20px;
+    }
+    i{
+        font-size: 20px;
+        color:rgb(254, 180, 217)
+    }
+
+  }
+

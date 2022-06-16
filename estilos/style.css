@@ -117,6 +117,38 @@ form {
   font-size: 1,5em;
 }
 
+footer {
+  background-color: #f3eeee;
+  grid-area: footer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 110px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer p {
+  color: dimgray;
+  font-weight: bolder;
+}
+
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+
+footer i {
+  font-size: 20px;
+  color: #feb4d9;
+}
+
 header#header {
   grid-area: header;
 }
