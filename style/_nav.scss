@@ -13,9 +13,10 @@
     background-color: rgb(243, 238, 238);
 }
 
-.navbar-brand {
+.navbar-light .navbar-brand {
     font-family: 'Rubik';
-    font-size: 2em;  
+    font-size: 2em; 
+    color: rgb(254, 180, 217); 
 }
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .nav-bar-nav.show> .nav-link {
