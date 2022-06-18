@@ -55,7 +55,8 @@ h2{
     display: flex;
     flex-direction: column;
     font-size: medium;
-    padding-bottom: 5%;
+    padding-bottom: 2em;
+    color: rgb(101, 146, 146); 
 } 
 
 
@@ -173,8 +174,10 @@ h2{
         font-family: 'Mukta', sans-serif;
         display: flex;
         flex-direction: row;
+        column-gap: 3em;
         font-size: medium;
-        padding-bottom: 5%;
+        padding-bottom: 2em;
+        color: rgb(101, 146, 146); 
     }
     
     

@@ -211,7 +211,8 @@ section#pagos {
         -ms-flex-direction: column;
             flex-direction: column;
     font-size: medium;
-    padding-bottom: 5%;
+    padding-bottom: 2em;
+    color: #659292;
   }
   /*cunas*/
   #grillaCunas {
@@ -324,8 +325,11 @@ section#pagos {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    -webkit-column-gap: 3em;
+            column-gap: 3em;
     font-size: medium;
-    padding-bottom: 5%;
+    padding-bottom: 2em;
+    color: #659292;
   }
   /*cunas*/
   #grillaCunas {
