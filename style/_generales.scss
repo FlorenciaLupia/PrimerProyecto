@@ -67,3 +67,16 @@ form{
     height: 100%;
 }
 
+/*seccion promociones*/
+
+.descripcion{
+    background-color:  rgb(227, 233, 233);
+}
+
+.articulo{
+   display: flex;
+   flex-direction: column-reverse;
+   gap: 2em;
+   max-width: 100%;
+   align-items: center;
+}
