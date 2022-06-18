@@ -85,12 +85,6 @@ form {
   height: 100%;
 }
 
-/* seccion blanqueria*/
-.rounded:hover {
-  -webkit-transform: scale(2, 1);
-          transform: scale(2, 1);
-}
-
 #header {
   background-color: #f3eeee;
   font-family: 'Inter', sans-serif;
