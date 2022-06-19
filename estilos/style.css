@@ -201,7 +201,7 @@ section#pagos {
     font-weight: bolder;
   }
   .parrafoPagos {
-    text-align: justify;
+    text-align: center;
     font-family: 'Mukta', sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -211,7 +211,6 @@ section#pagos {
         -ms-flex-direction: column;
             flex-direction: column;
     font-size: medium;
-    padding-bottom: 2em;
     color: #659292;
   }
   /*cunas*/
@@ -316,7 +315,7 @@ section#pagos {
     font-weight: bolder;
   }
   .parrafoPagos {
-    text-align: justify;
+    text-align: center;
     font-family: 'Mukta', sans-serif;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -328,8 +327,9 @@ section#pagos {
     -webkit-column-gap: 3em;
             column-gap: 3em;
     font-size: medium;
-    padding-bottom: 2em;
     color: #659292;
+    max-width: 90%;
+    padding-left: 9em;
   }
   /*cunas*/
   #grillaCunas {

@@ -50,12 +50,11 @@ h2{
 
 
 .parrafoPagos{
-    text-align: justify;
+    text-align: center;
     font-family: 'Mukta', sans-serif;
     display: flex;
     flex-direction: column;
     font-size: medium;
-    padding-bottom: 2em;
     color: rgb(101, 146, 146); 
 } 
 
@@ -170,14 +169,15 @@ h2{
     
     
     .parrafoPagos{
-        text-align: justify;
+        text-align: center;
         font-family: 'Mukta', sans-serif;
         display: flex;
         flex-direction: row;
         column-gap: 3em;
         font-size: medium;
-        padding-bottom: 2em;
         color: rgb(101, 146, 146); 
+        max-width: 90%;
+        padding-left: 9em;
     }
     
     
