@@ -1,0 +1,15 @@
+
+
+/*Maps*/
+
+$redes: (
+   mail:#55acee,
+   comprar:#3a5795,
+   llamar:#c25e30
+);
+
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+    }
+}

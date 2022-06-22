@@ -105,6 +105,19 @@ form {
           align-items: center;
 }
 
+/*Maps*/
+.btn--mail {
+  background-color: #55acee;
+}
+
+.btn--comprar {
+  background-color: #3a5795;
+}
+
+.btn--llamar {
+  background-color: #c25e30;
+}
+
 #header {
   background-color: #f3eeee;
   font-family: 'Inter', sans-serif;
@@ -184,7 +197,11 @@ section#pagos {
   #grilla {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header" "foto" "nosotros" "pagos" "footer";
+        grid-template-areas: "header"
+ "foto"
+ "nosotros"
+ "pagos"
+ "footer";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 2fr 90% 1fr 1fr 1fr;
@@ -217,7 +234,10 @@ section#pagos {
   #grillaCunas {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header" "descripcion" "fotosCunas" "footer";
+        grid-template-areas: "header"
+ "descripcion"
+ "fotosCunas"
+ "footer";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 2fr 1fr 2fr 1fr;
@@ -244,7 +264,10 @@ section#pagos {
   #grillaBlanqueria {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header" "descripcion" "blanqueria" "footer";
+        grid-template-areas: "header"
+ "descripcion"
+ "blanqueria"
+ "footer";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 2fr 1fr 2fr 1fr;
@@ -271,7 +294,10 @@ section#pagos {
   #grillaPromo {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header" "descripcion" "articulo" "footer";
+        grid-template-areas: "header"
+ "descripcion"
+ "articulo"
+ "footer";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 2fr 1fr 2fr 1fr;
@@ -284,7 +310,10 @@ section#pagos {
   #grillaContacto {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header" "bebe" "bebe" "footer";
+        grid-template-areas: "header"
+ "bebe"
+ "bebe"
+ "footer";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 2fr 1fr 2fr 1fr;
@@ -298,7 +327,11 @@ section#pagos {
   #grilla {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header" "foto" "nosotros" "pagos" "footer";
+        grid-template-areas: "header"
+ "foto"
+ "nosotros"
+ "pagos"
+ "footer";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 2fr 90% 1fr 1fr 1fr;
@@ -335,7 +368,10 @@ section#pagos {
   #grillaCunas {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header" "descripcion" "fotosCuna" "footer";
+        grid-template-areas: "header"
+ "descripcion"
+ "fotosCuna"
+ "footer";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 2fr 1fr 2fr 1fr;
@@ -363,7 +399,10 @@ section#pagos {
   #grillaBlanqueria {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header" "descripcion" "blanqueria" "footer";
+        grid-template-areas: "header"
+ "descripcion"
+ "blanqueria"
+ "footer";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 2fr 1fr 2fr 1fr;
@@ -391,7 +430,10 @@ section#pagos {
   #grillaPromo {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header" "descripcion" "articulo" "footer";
+        grid-template-areas: "header"
+ "descripcion"
+ "articulo"
+ "footer";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 2fr 1fr 2fr 1fr;
@@ -404,7 +446,10 @@ section#pagos {
   #grillaContacto {
     display: -ms-grid;
     display: grid;
-        grid-template-areas: "header" "bebe" "direccion" "footer";
+        grid-template-areas: "header"
+ "bebe"
+ "direccion"
+ "footer";
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: 2fr 1fr 2fr 1fr;
@@ -413,4 +458,6 @@ section#pagos {
     width: auto;
   }
 }
+
+
 /*# sourceMappingURL=style.css.map */

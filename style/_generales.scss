@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@100;200&family=Mukta:wght@200&family=Oleo+Script+Swash+Caps:wght@700&family=Pacifico&family=Poppins:wght@100&family=Rubik&display=swap');
 
+
 *{
     padding: 0;
     margin: 0;
@@ -79,4 +80,18 @@ form{
    gap: 2em;
    max-width: 100%;
    align-items: center;
+}
+
+/*Maps*/
+
+$redes: (
+   mail:#55acee,
+   comprar:#3a5795,
+   llamar:#c25e30
+);
+
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+    }
 }
