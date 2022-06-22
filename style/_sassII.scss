@@ -1,5 +1,4 @@
 
-
 /*Maps*/
 
 $redes: (
@@ -12,4 +11,17 @@ $redes: (
     .btn--#{$red}{
         background-color: $color;
     }
+}
+
+/*Extend*/
+
+.redSocial{
+    border: 2px solid pink;
+    background-color: red;
+}
+
+.redsocial--social{
+    @extend .redSocial;
+    color: aqua;
+    border-radius: 7px; 
 }
