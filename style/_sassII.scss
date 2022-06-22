@@ -15,13 +15,19 @@ $redes: (
 
 /*Extend*/
 
-.redSocial{
-    border: 2px solid pink;
-    background-color: red;
+.boton{
+    border: 2px solid ;
+    background-color: #3a5795;
 }
 
 .redsocial--social{
-    @extend .redSocial;
+    @extend .boton;
     color: aqua;
     border-radius: 7px; 
+}
+
+.redsocial--nueva{
+    @extend .boton;
+    text-align: center;
+    background-color: #3a5795;
 }
