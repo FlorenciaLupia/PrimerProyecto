@@ -85,6 +85,10 @@ form {
   height: 100%;
 }
 
+.enviar {
+  color: crimson;
+}
+
 /*seccion promociones*/
 .descripcion {
   background-color: #e3e9e9;
@@ -106,14 +110,9 @@ form {
 }
 
 #header {
-  background-color: #f3eeee;
-  font-family: 'Inter', sans-serif;
   position: -webkit-sticky;
   position: sticky;
-  top: 0px;
-  padding: 10px;
   width: 100%;
-  z-index: 1;
 }
 
 .gris {
