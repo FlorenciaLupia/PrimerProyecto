@@ -127,6 +127,10 @@ form {
   font-size: 1,5em;
 }
 
+.navbar-light .navbar-brand:hover {
+  color: #659292;
+}
+
 footer {
   background-color: #f3eeee;
   grid-area: footer;
