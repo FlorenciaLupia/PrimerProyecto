@@ -85,6 +85,12 @@ form {
   height: 100%;
 }
 
+.enviar {
+  border-radius: 30px;
+  background-color: #feb4d9;
+  border-color: #feb4d9;
+}
+
 /*seccion promociones*/
 .descripcion {
   background-color: #e3e9e9;
@@ -240,7 +246,7 @@ section#pagos {
   }
   h1 {
     color: #feb4d9;
-    font-size: 1em;
+    font-size: 1,5em;
     font-family: 'Inter', sans-serif;
     text-align: center;
     font-weight: bolder;
@@ -354,7 +360,7 @@ section#pagos {
   }
   h1 {
     color: #feb4d9;
-    font-size: 1,5em;
+    font-size: 2em;
     font-family: 'Inter', sans-serif;
     text-align: center;
     font-weight: bolder;
